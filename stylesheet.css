@@ -1,0 +1,177 @@
+@import url(stylesheets/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+/*** IMPOSTAZIONI GENERALI ***/
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 246, 235);
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size:1.7rem;
+}
+
+h3{
+    font-size:2rem;
+}
+
+
+
+
+/*** HEADER ***/
+header{
+    box-sizing: border-box;
+    width: 100%;
+    position:fixed;
+    background-color: #002E25;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+header a{
+    color:white;
+}
+    /*** LOGO ***/
+    .contenitore-logo{
+        display: flex;
+        align-items: center;
+    }
+    .contenitore-logo img{
+        background-color:white;
+        padding:5px;
+        width:10%;
+        border-radius: 100%;
+        margin:0 10px;
+    }
+    .contenitore-logo h2{
+        font-size:2em;
+        color: white;
+        text-transform: uppercase;
+    }
+        /*** NAV ***/
+        .contenitore-menu{
+            display: flex;
+        }
+        .contenitore-menu li{
+            list-style-type: none;
+        }
+        .contenitore-menu button{
+            margin: 0 10px;
+            padding: 20px 20px;
+            background-color: #008060;
+            color: white;
+            font-size:1.7rem;
+            border: none;
+            border-radius:20px;
+            cursor: pointer;
+            transition: .3s;
+
+        }
+        .contenitore-menu button:hover{
+            background-color:white;
+            color:#008060;
+        }
+        .bottone-attivo button{
+            background-color:white;
+            color:#008060;
+        }
+        .bottone-attivo button:hover{
+            background-color:rgba(255, 0, 0, 0.6);
+            color:white;
+        }
+/*** FOOTER ***/
+.main-footer{
+    text-align: center;
+    color:white;
+    padding:20px 20px;
+    background-color:#002E25;
+}
+.main-footer a{
+    color:aqua;
+    text-decoration: none;
+}
+/*** MAIN ***/
+main{
+    padding-top: 150px;
+    min-height: calc(100vh - 100px);
+}
+
+    /*** HOME ***/ /*HOMEPAGE INDEX*/
+    #homepage-section{
+        display: flex;
+        padding: 20px 20px;
+    }
+
+    #homepage-section img{
+        border-radius:100%;
+        padding: 20px 20px;
+    }
+    #immagine{
+        padding: 20px 20px;
+        text-align: center;
+        width:70%;
+    }
+    #side-zone{
+        padding:20px 20px;
+        width:30%;
+    }
+    .articolo button{
+        text-align: center;
+        font-size:2rem;
+        background-color: #008060;
+        color:White;
+        padding:10px 40px;
+        border-radius: 20px;
+        border:none;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .articolo button:hover{
+        background-color:white;
+        color:#008060;
+    }
+    /*** BLOG ***/
+    #blog-section{
+        display:flex;
+    }
+    #sezione-articoli{
+        padding: 40px 40px;
+        width:70%;
+    }
+    #side-zone-blog{
+        background-color:white;
+        padding:40px 40px;
+        width:30%;
+    }
+    /*** ARTICOLO 1 ***/
+    #articolo_1{
+        padding:40px 40px;
+    }
+    .articolo details{
+        font-size: 2rem;
+        text-align: right;
+        text-decoration: none;
+    }
+
+    /*** ABOUT ***/
+    #about{
+        text-align: center;
+        padding:20px 20px;
+    }
+
+
